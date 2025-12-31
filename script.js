@@ -16,7 +16,7 @@ function orderNow() {
     
     window.open(whatsappUrl, '_blank');
 }
-
+document.querySelector('.order-btn').addEventListener('click', orderNow)
 /**
  * Smooth Scrolling for Navigation Links
  * Finds all links starting with # and scrolls to the target element.
